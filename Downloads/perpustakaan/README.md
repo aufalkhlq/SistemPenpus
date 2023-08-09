@@ -1,11 +1,4 @@
-<h1 align="center">Laravel 8 Perpustakaan</h1>
-
-## Author
-
-Laravel 8 pepustakaan dibuat oleh :
-
-- Github : <a href="https://github.com/musyahya"> Musyahya </a>
-- Youtube : <a href="https://www.youtube.com/channel/UC1iCvpMssrHnUsWKEe2cOag"> Musyahya </a>
+<h1 align="center">Sistem Perpustakaan</h1>
 
 ## Fitur 
 
@@ -40,12 +33,6 @@ Laravel 8 pepustakaan dibuat oleh :
 
 ## Install
 
-**Clone Repository**
-
-```bash
-git clone https://github.com/musyahya/laravel8_perpustakaan.git
-```
-
 **Download zip**
 
 ```bash
@@ -73,14 +60,14 @@ copy .env.example menjadi .env
 ## Buat database di localhost 
 
 ```bash
-nama database : perpustakaan_laravel_8
+nama database : sistempenpus
 ```
 
 ## Setting database di .env
 
 ```bash
 DB_PORT=3306
-DB_DATABASE=perpustakaan_laravel_8
+DB_DATABASE=sistempenpus
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -103,26 +90,9 @@ php artisan migrate --seed
 php artisan storage:link
 ```
 
-## Download Asset Buku
-
-```bash
-https://drive.google.com/drive/folders/1bCEhRhFVnTiRG9YhibUz2lLwFC6SIFNW?usp=sharing
-```
-
-## Buat Folder buku di public dan copy asetnya
-
 
 ## Jalankan Serve
 
 ```bash
 php artisan serve
 ```
-
-## Contributing
-
-Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
-
-## License
-
-- Copyright © 2021 Musyahya.
